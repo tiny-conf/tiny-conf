@@ -4,7 +4,8 @@
   "description": "Node.js configuration with files, environment variables, command-line arguments, ... pluggable architecture in order to work on browser & server",
   "main": "tiny-conf.js",
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --recursive",
+    "prepublish": "browserify tiny-conf.js -s TinyConf -o dist/tiny-conf.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "browserify": "^13.1.0",
     "expect": "^1.20.2",
     "mocha": "^3.0.1"
   },

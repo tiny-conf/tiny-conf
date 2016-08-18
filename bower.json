@@ -1,0 +1,24 @@
+{
+  "name": "tiny-conf",
+  "description": "Node.js configuration with files, environment variables, command-line arguments, ... pluggable architecture in order to work on browser & server",
+  "main": "dist/tiny-conf.js",
+  "authors": [
+    "Maxime Tricoire <max.tricoire@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "conf",
+    "config",
+    "configuration",
+    "pluggable",
+    "tiny"
+  ],
+  "homepage": "https://github.com/tiny-conf/tiny-conf",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
