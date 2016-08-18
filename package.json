@@ -5,7 +5,7 @@
   "main": "tiny-conf.js",
   "scripts": {
     "test": "mocha --recursive",
-    "prepublish": "browserify tiny-conf.js -s TinyConf -o dist/tiny-conf.js"
+    "prepublish": "browserify -r ./tiny-conf.js:tiny-conf tiny-conf.js -o dist/tiny-conf.js"
   },
   "repository": {
     "type": "git",
