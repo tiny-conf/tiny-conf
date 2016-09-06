@@ -1,6 +1,6 @@
 {
   "name": "tiny-conf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js configuration with files, environment variables, command-line arguments, ... pluggable architecture in order to work on browser & server",
   "main": "tiny-conf.js",
   "scripts": {
