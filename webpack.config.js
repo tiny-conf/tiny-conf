@@ -9,7 +9,8 @@ module.exports = {
   entry: path.resolve(pkg.main),
   output: {
     filename: path.join('dist', pkg.name + '.js'),
-    library: 'TinyConf'
+    library: 'TinyConf',
+    libraryTarget: 'umd'
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({})
