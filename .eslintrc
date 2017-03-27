@@ -1,0 +1,18 @@
+env:
+  node: true
+extends: eslint:recommended
+rules:
+  no-console: 0
+  semi:
+    - error
+    - always
+  one-var:
+    - error
+    - initialized: never
+  space-before-function-paren:
+    - error
+    -
+      named: never
+      anonymous: always
+  no-use-before-define:
+    - error
