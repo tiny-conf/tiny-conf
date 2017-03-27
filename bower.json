@@ -1,6 +1,6 @@
 {
   "name": "tiny-conf",
-  "description": "Node.js configuration with files, environment variables, command-line arguments, ... pluggable architecture in order to work on browser & server",
+  "description": "Node.js configuration with files, environment variables, command-line arguments, ... pluggable architecture in order to work in the browser & server-side",
   "main": "dist/tiny-conf.js",
   "authors": [
     "Maxime Tricoire <max.tricoire@gmail.com>"
