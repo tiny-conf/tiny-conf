@@ -18,9 +18,7 @@ describe('nested tests', function () {
 
 	it('should return object value when value added in nested path', function () {
 		conf.set('foo.bar', 42);
-		expect(conf.get('foo')).toEqual({
-			bar: 42
-		});
+		expect(conf.get('foo')).toEqual({ bar: 42 });
 	});
 
 	it('should work with huge nested path', function () {
