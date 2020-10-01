@@ -44,6 +44,9 @@ Store.prototype = {
    * @return {boolean} true if set; false otherwise
    */
   set: function (key, val) {
+    if (key.includes('__proto__') || key.includes('prototype') || key.includes('constructor')){
+      return undefined;
+    }
     if (val === undefined) {
       val = key;
       key = null;
