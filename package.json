@@ -25,7 +25,7 @@
     "eslint": "^4.3.0",
     "expect": "^1.20.2",
     "mocha": "^3.0.1",
-    "webpack": "^3.4.1"
+    "webpack": "^5.75.0"
   },
   "author": "Maxime Tricoire <max.tricoire@gmail.com>",
   "license": "MIT",
